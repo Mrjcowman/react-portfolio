@@ -1,0 +1,93 @@
+body {
+    background-image: radial-gradient(circle, #00000000, #010109e0), url(images/background.png);
+    background-position: center;
+    background-attachment: fixed;
+
+
+    min-height: 100vh;
+}
+
+
+.bg-blue {
+    background-color: cornflowerblue;
+}
+
+.bg-smokey {
+    background-image: linear-gradient(#01010988 50%, #010109ff);
+}
+
+.bg-smokey-bottom {
+    background-image: linear-gradient(#01010988, #010109ff 75%);
+}
+
+a {
+    white-space: nowrap;
+}
+
+.jumbotron {
+    background: radial-gradient(circle, #01010150, #010101e0),
+                url(images/mountainLights.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.display-4 {
+    font-family: "Alice", Garamond, serif;
+    color: white;
+}
+
+.display-4 .bigJ {
+    font-family: "Kurale", Garamond, serif;
+    font-size: 4rem;
+    letter-spacing: -0.08rem;
+}
+
+.lead {
+    font-family: "Alice", Garamond, serif;
+    color: white;
+    font-size: 2rem;
+}
+
+.jumbotron hr {
+    border-color: white;
+    width: calc((20rem + 100%) / 2);
+}
+
+.card {
+    background-color: #222222;
+}
+
+.card-img-top {
+    size:cover;
+}
+
+
+
+/* Button coloring */
+.btn-primary {
+    background-color: #000000aa;
+    border-color: #dddddd;
+    font-family: "Alice", "Kurale", Garamond, serif;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 0 0 0.2rem #0077ff;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    border-color: #dddddd;
+    color: black;
+}
+
+.btn-primary:focus {
+    background-color: #000000aa;
+    border-color: #6aafff;
+    color: #6aafff;
+    box-shadow: 0 0 0 0.2rem #0077ff;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #0077ff;
+    color: white;
+}
